@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  
+  @media screen and (max-width:992px) {
+  width: 992px;
+    
+  }
+}

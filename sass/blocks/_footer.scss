@@ -1,0 +1,35 @@
+footer {
+  background-color: #2f2f51;
+  color: #fff;
+}
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and(max-width:992px) {
+    justify-content: space-around;
+  }
+}
+
+.footer-items-left {
+  display: flex;
+  align-items: center;
+  & img {
+    padding: 52px 0 55px;
+    margin-right: 22px;
+  }
+}
+
+.footer-items-right {
+  display: flex;
+  align-items: center;
+  gap: 29px;  
+
+  & a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+  }
+}
