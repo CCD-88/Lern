@@ -68,6 +68,7 @@
 .company-blocks__twoimg {
   position: absolute;
   right: 0;
+  
   @media screen and (max-width: 992px) {
     width: 447px;
     height: 461px;
@@ -82,12 +83,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
-  margin-right: -106px;
+  // margin-right: -106px;
 
   @media screen and (max-width: 992px) {
     justify-content: space-around;
     padding: 0px 75px;
-    margin-right: -76px;
+    // margin-right: -76px;
   }
 }
 
@@ -135,7 +136,6 @@
     border-radius: 3px;
 
     padding: 17px 30px;
-    margin-right: 85px;
     margin-bottom: 87px;
 
     color: #ffffff;

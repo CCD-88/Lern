@@ -8,65 +8,68 @@
     <title>HomeWork-08</title>
   </head>
   <body>
-    <header class="header">
-      <div class="wrapper header-block">
-        <span class="header-block__burger"></span>
-        <img src="./images/Logo.svg.svg" alt="Logo" class="header-block__logo" />
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#">Услуги</a>
-            </li>
-            <li class="nav__item">
-              <a href="#">Продукция</a>
-            </li>
-            <li class="nav__item">
-              <a href="#">О компании</a>
-            </li>
-            <li class="nav__item">
-              <a href="#">Портфолио</a>
-            </li>
-            <li class="nav__item">
-              <a href="#">Вопрос-ответ</a>
-            </li>
-            <li class="nav__item">
-              <a href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="btn">
-          <button class="btn__items">
-            <img src=".//images/icon-btn 1.svg" alt="btn" /> Заявка на замер
-          </button>
-          <button class="btn__items">
-            <img src="./images/icon-btn 2.svg" alt="btn" /> Заказать расчет
-          </button>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container _container">
+          <span class="header__burger"></span>
+          <img class="header__logo" src="./images/Logo.svg.svg" alt="logo" />
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#services">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Продукция</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#aboutCompany">О компании</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#Portfolio">Портфолио</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#questions">Вопрос-ответ</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="buttons">
+            <button class="buttons__item">
+              <img src=".//images/icon-btn 1.svg" alt="btn" />Заявка на замер
+            </button>
+            <button class="buttons__item">
+              <img src="./images/icon-btn 2.svg" alt="btn" />Заказать расчет
+            </button>
+          </div>
         </div>
-      </div>
-    </header>
-
-    <main class="main">
-      <div class="wrapper">
-        <div class="main-title">
+      </header>
+      <main class="main">
+      <div class="main__container _container">
+        <div class="main__block">
+        <div class="main__block main-title">
           <p class="main-title__text"> Окна Хаус -</p>
           <h1 class="main-title__subtitle">Профессиональный подход к остеклению</h1>
         </div>
-        <div class="main-items">
-          <div class="main-items__item">
-          <img src="./images/main/icon1.svg" alt="img" />
-          <p class="main-items__description">Современные окна и балконные конструкции по доступным ценам</p>
-         </div>
-         <div class="main-items__item">
-          <img src="./images/main/icon1.svg" alt="img" />
-          <p class="main-items__description">Квалифицированный подход к решению задач любой сложности</p>
-         </div>
-          <div class="main-items__item">
-          <img src="./images/main/icon1.svg" alt="img" />
-          <p class="main-items__description">Гарантия высочайшего качества нашей продукции</p>
-          </div>
-          <div class="form-body">
-            <form class="form">
-              <h3 class="top-text-body">Вызвать замершика на дом</h3>
+        <div class="main__block main-items">
+          <div class="main-items main-items__items1">
+            <div class="main-items__items">
+              <img class="main-items main-items__img" src="./images/main/icon1.svg" alt="img" />
+              <p class="main-items main-items__description">Современные окна и балконные конструкции по доступным ценам</p>
+              </div>
+             <div class="main-items__items">
+              <img class="main-items main-items__img" src="./images/main/icon2.png" alt="img" />
+              <p class="main-items main-items__description">Квалифицированный подход к решению задач любой сложности</p>
+             </div>
+              <div class="main-items__items">
+              <img class="main-items main-items__img" src="./images/main/icon3.png" alt="img" />
+              <p class="main-items main-items__description">Гарантия высочайшего качества нашей продукции</p>
+              </div>
+          </div>   
+            <div class="main-items main-items__items2"> 
+            <form  class="main-items__items2 form" action="">
+              <h3 class="body__text">Вызвать замершика на дом</h3>
               <input class="form-input" type="text" placeholder="Представьтесь, пожалуйста">
               <input class="form-input"type="tel" placeholder="Номер телефона">
               <input class="form-input"type="email" placeholder="E-mail">
@@ -77,27 +80,22 @@
                   </svg>
                 </div>
                 <div class="chekbox-text">
-                  Согласен на обработку персональных данных в соответствии с
-                  <a target="_blank" href="https://howfarawayisandromeda.neocities.org/">
-                    политикой конфидециальности</a
-                  >
+                  Согласен на обработку персональных данных в соответствии с <a target="_blank" href="https://howfarawayisandromeda.neocities.org/">политикой конфидециальности</a>
                 </div>
               </label>
-          
-              <img class="form-input__img" src="./images/main/roullete.jpg" alt="">
-
+                <img class="form-input__img" src="./images/main/roullete.jpg" alt="">
               <div class="main-btn">
                 <button class="main-btn main-btn__send">Отправить заявку</button>
               </div>
             </form>
           </div>
         </div>
-        
-      </div>
-    </main>
+    </div>
+  </div>
+</main>
     <section class="services">
-      <div class="wrapper">
-        <h2 class="top-text">Наши услуги</h2>
+      <div class="services__container _container">
+        <h2 class="top-text" id="services">Наши услуги</h2>
         <div class="items">
           <div class="items-item">
             <div class="items-item__title">
@@ -145,8 +143,8 @@
     </section>
 
     <section class="about-company">
-      <div class="wrapper">
-        <h2 class="top-text">О компании</h2>
+      <div class="about-company__container _container">
+        <h2 class="top-text" id="aboutCompany">О компании</h2>
         <nav class="nav-company">
           <div class="wrapper-nav">
             <ul class="nav-company-list">
@@ -183,7 +181,7 @@
     </section>
 
     <section class="cards-company">
-      <div class="wrapper">
+      <div class="cards-company__container _container">
         <div class="card-wrapper-row">
           <div class="card">
             <div class="card-card__img">
@@ -245,8 +243,8 @@
     </section>
 
     <section class="portfolio">
-      <div class="wrapper portfolio-bg">
-        <h2 class="top-text port-title">Портфолио</h2>
+      <div class="portfolio _container portfolio-bg">
+        <h2 class="top-text port-title" id="Portfolio">Портфолио</h2>
         <div class="portfolio-img-cards">
           <div class="portfolio-img-cards__card"><img src="./images/portfolio/img1.jpg"> 
           </div>
@@ -260,8 +258,8 @@
       </div>
     </section>
     <section class="questions">
-      <div class="wrapper questions-bg">
-        <h4 class="top-text questions__white">Вопрос-ответ</h4>
+      <div class="questions _container questions-bg">
+        <h4 class="top-text questions__white" id="questions">Вопрос-ответ</h4>
             <details class="questions-box">
             <summary class="questions-box questions-box__summary">Сколько по времени занимает изготовление пластиковых окон?
               <svg class="questions-box questions-box__img" width="30" height="17" viewBox="0 0 30 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -313,7 +311,7 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="wrapper footer-row">
+      <div class="footer _container footer-row">
       <div class="footer-items-left">
       <img src="./images/footer/logo-footer.svg" alt="logo"><h5>© ООО “Окна Хаус”, 2011 - 2022</h5>
      </div>
@@ -322,5 +320,35 @@
     </div>
   </div>
     </footer>
+    </div>
   </body>
 </html>
+
+
+
+
+
+
+
+<!-- <div class="main-items__items2 form__body">
+  <form class="form__body form__body__baasd">
+    <h3 class="form-body__body body__text">Вызвать замершика на дом</h3>
+    <input class="form-input" type="text" placeholder="Представьтесь, пожалуйста">
+    <input class="form-input"type="tel" placeholder="Номер телефона">
+    <input class="form-input"type="email" placeholder="E-mail">
+    <label class="custom-checkbox">
+      <input type="checkbox" class="hiiden-checkbox" />
+      <div class="checkbox">
+        <svg class="checkmark" svg width="23" height="24" viewBox="0 0 23 24"fill="none"xmlns="http://www.w3.org/2000/svg"> <path d="M1.5 15L8.5 22L21.5 1" stroke="#2F2F51" stroke-width="2" />
+        </svg>
+      </div>
+      <div class="chekbox-text">
+        Согласен на обработку персональных данных в соответствии с <a target="_blank" href="https://howfarawayisandromeda.neocities.org/">политикой конфидециальности</a>
+      </div>
+    </label>
+      <img class="form-input__img" src="./images/main/roullete.jpg" alt="">
+    <div class="main-btn">
+      <button class="main-btn main-btn__send">Отправить заявку</button>
+    </div>
+  </form>
+</div> -->

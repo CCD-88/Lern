@@ -1,140 +1,130 @@
 .main {
-  background: url(/images/main/bg.jpg);
+  background: url(../images/main/bg.jpg);
   background-size: cover;
-  position: relative;
   background-repeat: no-repeat;
   margin-top: 95px;
+  position: relative;
+}
 
-  
+.main-title{
+  padding-top: 130px;
+  margin-left: 68px;
 
-  &-title {
-    position: relative;
-    padding-top: 130px;
-    width: 475px;
-    left: 88px;
+  &__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #EF7F04;
+}
+&__subtitle{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
 
-    &__text {
-      font-family: "Roboto";
-      color: #ef7f04;
-      font-weight: 700;
-      font-size: 24px;
-      line-height: 28px;
-      padding-bottom: 17px;
-    }
-
-    &__subtitle {
-      font-family: "Roboto";
-      font-weight: 100;
-      font-size: 36px;
-      line-height: 42px;
-      color: #ffffff;
-      margin-bottom: 17px;
-    }
+  width: 465px;
   }
 }
 
-.main-items {
+.main-items{
   display: flex;
   position: relative;
-  left: 85px;
+  padding-bottom: 64px;
 
-  &__item {
-    width: 200px;
+  &__items1{position: relative;
+    align-items: flex-start;
+    margin-left: 42px;
+    padding-top: 20px;
+    width: 50%;
   }
 
-  & img {
-    margin-bottom: 20px;
+  &__img{
+    padding-bottom: 20px;
   }
 
-  &__description {
-    font-family: "Roboto";
+  &__description{
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 18px;
-    color: #ffffff;
-
-    width: 170px;
-    margin-bottom: 131px;
-  }
-}
-
-// Form
-
-.top-text-body {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  color: #2f2f51;
-
-  margin-top: 43px;
-  margin-bottom: 27px;
-}
-
-.form-body {
-  position: absolute;
-  display: flex;
-
-  width: 406px;
-
-  top: -224px;
-  right: 160px;
-
-  background: #ffffff;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-
-  @media screen and (max-width:992px) {
-   display: none;
-  }
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-input {
-  border: 0;
-
-  width: 313px;
-  padding: 12px 16px;
-  margin: 0px 40px;
-  background: #e2e2e2;
-  border-radius: 3px;
-  margin-bottom: 15px;
-
-  &::placeholder {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-
-    color: #424268;
-  }
-  &.form-input-container {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-
-    color: #000000;
-
-    margin-left: 25px;
-    background-color: #ffffff;
-    width: 330px;
+    line-height: 18px;  
+    color: #FFFFFF;
   }
 
-  &__img {
+  &__items2{
+    position: relative;
+  }
+  
+  .form{ 
     position: absolute;
-    bottom: -73px;
-    left: -81px;
-  }
-}
+    top: -178px;
+    left: 15px;
+    padding-left: -50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 406px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 
-// Checkbox-custom
+    @media screen and (max-width: 992px) {
+          display: none;
+        }
+  }
+  .body__text {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      color: #2f2f51;
+    
+      margin-top: 43px;
+      margin-bottom: 27px;
+    }
+    .form-input {
+      border: 0;
+    
+      width: 313px;
+      padding: 12px 16px;
+      margin: 0px 40px;
+      background: #e2e2e2;
+      border-radius: 3px;
+      margin-bottom: 15px;
+    
+      &::placeholder {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    
+        color: #424268;
+      }
+      &.form-input-container {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    
+        color: #000000;
+    
+        margin-left: 25px;
+        background-color: #ffffff;
+        
+      }
+    
+      &__img {
+        position: absolute;
+        bottom: -73px;
+        left: -81px;
+      }
+    }
+
+    // Checkbox-custom
 .custom-checkbox {
   position: relative;
   left: 41px;
@@ -198,3 +188,10 @@
     border: 0;
   }
 }
+}
+
+
+
+
+
+
