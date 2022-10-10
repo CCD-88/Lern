@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.products {
+  background: #161516;
+  color: #ffffff;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.products-card {
+  display: flex;
+  overflow-y: auto;
+  height: calc(100vh -50px);
+  flex-wrap: wrap;
+  gap: 17px;
+}
+
+.products-card .card {
+  width: 312px;
+}
