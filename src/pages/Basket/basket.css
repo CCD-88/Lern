@@ -1,0 +1,15 @@
+.basket {
+  background-color: #161516;
+  color: #ffffff;
+  font-family: 'Montserrat';
+}
+
+.basket-wrapper {
+  width: 860px;
+  margin: 0 auto;
+  /* height: 100vh; */
+}
+.basket-cards {
+  height: calc(100vh - 184px);
+  overflow-y: auto;
+}

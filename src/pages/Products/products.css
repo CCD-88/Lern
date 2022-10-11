@@ -1,0 +1,22 @@
+.products {
+    background: #161516;
+    color: #ffffff;
+  }
+  
+  .container {
+    width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .products-card {
+    display: flex;
+    /* height: calc(100vh -189px);
+    overflow-y: auto; */
+    flex-wrap: wrap;
+    gap: 17px;
+  }
+  
+  .products-card .card {
+    width: 312px;
+  }
+  

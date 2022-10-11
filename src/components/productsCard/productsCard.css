@@ -1,0 +1,65 @@
+.card {
+  border: 1px solid #d58c51;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat';
+  padding-left: 21px;
+  padding-right: 21px;
+  margin-bottom: 40px;
+  
+}
+
+.card:hover {
+  color: #d58c51;
+  transition: color 0.3s linear;
+}
+.card__img {
+  width: 270px;
+  height: 271px;
+  margin-top: 43px;
+}
+
+.card__title h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+
+  padding-top: 31px;
+  height: 42px;
+}
+
+.card__description p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 40px;
+
+  height: 68px;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+.card-bottom__price {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.card-bottom__weight {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}

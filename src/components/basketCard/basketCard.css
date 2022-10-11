@@ -1,0 +1,56 @@
+.basket-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 33px;
+}
+
+.basket-card-left {
+  display: flex;
+  align-items: center;
+}
+.basket-card-img {
+  width: 122px;
+  height: 122px;
+  image-rendering: optimizeQuality;
+}
+
+.basket-card-description {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  margin-left: 98px;
+}
+
+.basket-card-price {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #d58c51;
+}
+
+.basket-card-btn {
+  position: relative;
+  cursor: pointer;
+
+  width: 30px;
+  height: 30px;
+  border: 1px solid #d58c51;
+
+  border-radius: 50px;
+  background-color: transparent;
+
+  color: #d58c51;
+  font-size: 26px;
+
+  transform: rotate(45deg);
+}
+
+.basket-card-btn:hover {
+  scale: 1.1;
+  color: #fff;
+  border: 1px solid #fff;
+}

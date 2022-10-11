@@ -1,0 +1,17 @@
+.basket-header {
+  display: flex;
+  align-items: center;
+  padding-top: 53px;
+  /* padding-bottom: 38px; */
+}
+
+.basket-header-button {
+  margin-right: 63px;
+}
+
+.basket-tilte {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 38px;
+}

@@ -1,0 +1,46 @@
+.basket-footer {
+  border-top: 1px solid #d58c51;
+  padding: 20px 0 27px 0;
+}
+
+.basket-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basket-block-left {
+  display: flex;
+  align-items: center;
+}
+
+.basket-block-desc {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.basket-block-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #d58c51;
+}
+
+.basket-footer-btn {
+  cursor: pointer;
+  background: #d58c51;
+  padding: 12px 40px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #131313;
+}
+
+.basket-footer-btn:hover {
+  background: #f1a465;
+  transition: 0.3s ease linear;
+}
