@@ -7,9 +7,13 @@
 .basket-wrapper {
   width: 860px;
   margin: 0 auto;
-  /* height: 100vh; */
 }
+
 .basket-cards {
-  height: calc(100vh - 184px);
+  height: calc(100vh - 224px);
   overflow-y: auto;
+}
+
+.basket-cards::-webkit-scrollbar {
+  width: 0px;
 }

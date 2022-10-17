@@ -1,15 +1,18 @@
-import ProductsHeader from '../../components/productsHeader/ProductsHeader';
+//Главная страница с продуктами
+import ProductsHeader from '../../components/productsHeader/productsHeader';
 import ProductsCard from '../../components/productsCard/productsCard';
 import './products.css';
 
 function ProductsPage() {
   return (
-    <div class="products">
+    <div className="products">
       <div className="container">
         <ProductsHeader />
-        <main className="products-card">
+
+        <main className="products-card" >
           <ProductsCard
-            url={'img/1.png'}
+            id={1}
+            img={'img/1.png'}
             title={`Устрицы по рокфеллеровски`}
             description={`Значимость этих проблем настолько очевидна, что укрепление и развитие структуры`}
             price={2700}
@@ -18,7 +21,8 @@ function ProductsPage() {
             quantity={'гр'}
           />
           <ProductsCard
-            url={'img/2.png'}
+            id={2}
+            img={'img/2.png'}
             title={`Свиные ребрышки на гриле с зеленью`}
             description={`Не следует, однако забывать, что реализация намеченных плановых`}
             price={1600}
@@ -27,7 +31,8 @@ function ProductsPage() {
             quantity={'гр'}
           />
           <ProductsCard
-            url={'img/3.png'}
+            id={3}
+            img={'img/3.png'}
             title={`Креветки по-королевски в лимонном соке`}
             description={`Значимость этих проблем настолько очевидна, что укрепление и развитие структуры обеспечивает широкому кругу`}
             price={1820}
@@ -36,7 +41,8 @@ function ProductsPage() {
             quantity={'шт'}
           />
           <ProductsCard
-            url={'img/4.png'}
+            id={4}
+            img={'img/4.png'}
             title={`Устрицы по рокфеллеровски`}
             description={`Значимость этих проблем настолько очевидна, что укрепление и развитие структуры`}
             price={2700}
@@ -45,7 +51,8 @@ function ProductsPage() {
             quantity={'гр'}
           />
           <ProductsCard
-            url={'img/5.png'}
+            id={5}
+            img={'img/5.png'}
             title={`Устрицы по рокфеллеровски`}
             description={`Значимость этих проблем настолько очевидна, что укрепление и развитие структуры`}
             price={2700}
@@ -54,7 +61,8 @@ function ProductsPage() {
             quantity={'гр'}
           />
           <ProductsCard
-            url={'img/6.png'}
+            id={6}
+            img={'img/6.png'}
             title={`Свиные ребрышки на гриле с зеленью`}
             description={`Не следует, однако забывать, что реализация намеченных плановых`}
             price={1600}
@@ -63,7 +71,8 @@ function ProductsPage() {
             quantity={'гр'}
           />
           <ProductsCard
-            url={'img/7.png'}
+            id={7}
+            img={'img/7.png'}
             title={`Креветки по-королевски в лимонном соке`}
             description={`Значимость этих проблем настолько очевидна, что укрепление и развитие структуры обеспечивает широкому кругу`}
             price={1820}
@@ -72,7 +81,8 @@ function ProductsPage() {
             quantity={'шт'}
           />
           <ProductsCard
-            url={'img/8.png'}
+            id={8}
+            img={'img/8.png'}
             title={`Устрицы по рокфеллеровски`}
             description={`Значимость этих проблем настолько очевидна, что укрепление и развитие структуры`}
             price={2700}
@@ -80,6 +90,8 @@ function ProductsPage() {
             weight={500}
             quantity={'гр'}
           />
+
+          
         </main>
       </div>
     </div>

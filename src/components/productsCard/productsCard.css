@@ -6,6 +6,7 @@
   padding-left: 21px;
   padding-right: 21px;
   margin-bottom: 40px;
+  border-radius: 3px;
   
 }
 
@@ -13,10 +14,16 @@
   color: #d58c51;
   transition: color 0.3s linear;
 }
+
 .card__img {
   width: 270px;
   height: 271px;
   margin-top: 43px;
+}
+
+.card__img:hover {
+    scale: 1.03;
+    transition:  0.3s ease all;
 }
 
 .card__title h1 {

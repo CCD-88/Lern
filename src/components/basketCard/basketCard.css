@@ -9,6 +9,11 @@
   display: flex;
   align-items: center;
 }
+.basket-card-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .basket-card-img {
   width: 122px;
   height: 122px;
@@ -39,7 +44,7 @@
   width: 30px;
   height: 30px;
   border: 1px solid #d58c51;
-
+  margin-right: 5px;
   border-radius: 50px;
   background-color: transparent;
 

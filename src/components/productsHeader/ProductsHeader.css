@@ -3,7 +3,8 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding: 54px 0 81px;
+  padding: 54px 0 41px;
+  
 }
 
 .products-header__title {
@@ -13,6 +14,10 @@
   font-size: 31px;
   line-height: 38px;
   text-transform: uppercase;
+  background-image:linear-gradient(to left, #d58c51, #da9b67);
+  border-radius: 8px;
+  padding:  0px 5px ;
+  box-shadow:  0 0 5px #d58c51 ;
 }
 
 .products-header-basket {
